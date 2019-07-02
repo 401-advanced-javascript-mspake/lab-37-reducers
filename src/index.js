@@ -8,4 +8,4 @@ import createStore from './redux/create-store';
 
 const store = createStore();
 
-ReactDOM.render(<Provider store={store}> <App /> </Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
